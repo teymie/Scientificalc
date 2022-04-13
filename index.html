@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata">
+          <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+          
+    <script defer src="./calc.js"></script>
+</head>
+<body>
+ 
+    <div class="cont1"> <div class="cont"> <div class="container"> 
+        <p  class ='select'>Rad</p><form><input name="text" id="view" ><br>
+    <input type="text" id="resultContainer"></form>
+    </div>
+    <div class="all"><table class="first"> <tr class="func">
+     <td><button class='solve' id="Rad"><p class="next">Rad</p></button></td>
+     <td><button class='solve' id='deg'><p class="next">Deg</p></button></td>
+     <td><button class='operator'><p class="next">mod</p></button></td>
+     
+     <td><button class='operator' id="percent"><p class="next">%</p></button></td>
+     <td><div class="dis"><button class='sol trigBtn'><p class="next">Log</p></button></div>
+     </td>
+    </tr>
+    <tr  class="func">
+    <td><div class="dis"><button class='sol trigBtn'>sinh</button></div></td>
+    <td><button class='sol' ><p class="next" id="root" >X <sup>1/y</sup></p>
+        </span></button></td>
+    <td><button class='sol' id="fact"><p class="next">X!</p>
+        </button></td>
+    <td><div class="dis"><button class='sol ' id="inverse">X <sup>-1</sup></button></div></td>
+    <td><button class='sol trigBtn'>cosh</td>
+    </tr>
+    <tr class="func">
+    
+    <td><div class="dis"><button class='sol' id="sqrt">X <sup><sup>1</sup><span class="fraction">/</span><sub>2</sub></sup></button></div></td>
+    <td><div class="dis"><button class='sol' id="square">X <sup>2</sup></button></div></td>
+    <td><div class="dis"><button class='sol' id="power">X <sup>y</sup></button></div></td>
+    <td><button class='sol trigBtn' id="log">Ln</button></td>
+    <td><button class='sol trigBtn' id="ln">sinh</button></td>
+    </tr><tr class="func">
+    
+    <td><button class='operator'>PI</button></td>
+    <td><button class='sol trigBtn'>hyp</button></td>
+    <td><button class='sol trigBtn'>Sin</button></td>
+    <td><button class='sol trigBtn'>Cos</button></td>
+    <td><button class='sol trigBtn'>Tan</button></td>
+    </tr>
+    <tr class="func">
+    <td><button class='sol trigBtn'>asin </button></td>
+    <td><button class='sol trigBtn'>acos  </button></td>
+    <td><button class='sol trigBtn'>atan </button></td>
+    
+    <td><button class='sol trigBtn' id="tanh">tanh</button></td>
+    <td><button class='sol' id="storage">M+</button></td>
+    </tr></table><table class="mid">
+    <tr class="numb">
+    <td><button class='btn2 '>7</button></td>
+    <td><button class='btn2 '>8</button></td>
+    <td><button class='btn2'>9</button></td>
+    <td><button class='solve ' id="delete"><span class="material-icons-sharp">
+        backspace
+        </span></button></td>
+    <td><button class='solve' id="clear">CLR</button></td></tr><tr>
+        <td><button class='btn2 '>4</button></td>
+        <td><button class='btn2 '>5</button></td>
+        <td><button class='btn2 '>6</button></td>
+        <td><button class='operator'>X</button></td>
+        <td><button class='operator'>/</button></td></tr>
+        <tr class="numb">
+            <td><button class='btn2 '>1</button></td>
+            <td><button class='btn2 '>2</button></td>
+            <td><button class='btn2 '>3</button></td>
+            <td><button class='operator'>+</button></td>
+            <td><button class='operator'>-</button></td></tr>
+            <tr class="numb">
+                <td><button class='btn2 '>0</button></td>
+                <td><button class='btn2'>.</button></td>
+                <td><button class='sol trigBtn '>Exp</button></td>
+                <td><button class='solve ' id="ans">Ans</button></td>
+                <td><button class='solve ' id="solve">=</button></td></tr>
+    </table>  </div></div></div>
+</body>
+</html>
+ 

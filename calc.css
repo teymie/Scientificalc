@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+}
+.cont1{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+   
+    
+    
+}
+.cont{
+    font-family: 'Courier New', Courier, monospace,'poppins';
+    margin-left: 2rem;
+    width: 27rem;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding-bottom: 1rem;
+    display: block;
+    justify-content: center;
+    padding: 2rem,0;
+    background-color: rgb(55, 73, 85);
+
+}
+.all{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    
+}
+.dis{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'poppins';
+    font-size: 12px;
+   
+    
+}
+.select{
+    font-size: 14px;
+    margin: 1rem;
+    padding-top: 0.3rem;
+}
+
+
+.container{
+    width: 22.5rem;
+    font-size: 20px; 
+height: 5rem;
+margin-top: 1rem;
+margin-left: 2rem;
+background-color: black;
+color: white;
+}
+#view{
+    width: 22.5rem;
+    border: none;
+height: 2rem;
+
+background-color: black;
+color: white;  
+}
+#resultContainer{
+    width: 22.5rem;
+    border: none;
+height: 1.5rem;
+text-align: end;
+
+background-color: black;
+color: white
+}
+
+
+ .btn{
+    width: 2.8rem;
+    height: 2rem;
+    margin-left: 0.5rem;
+    margin-top: 0.7rem;
+
+}
+.sol{
+    width: 2.8rem;
+    height: 2rem;
+    margin-left: 0.5rem;
+    margin-top: 0.7rem;
+
+}
+ .btn2{
+    width: 3.6rem;
+    height: 2rem;
+    margin: 0.5rem;
+    margin-top: 0.7rem;
+   
+}
+.operator{
+    width: 3.6rem;
+    height: 2rem;
+    margin: 0.5rem;
+    margin-top: 0.7rem;
+   
+}
+.solve{
+    width: 3.6rem;
+    height: 2rem;
+    margin: 0.5rem;
+    margin-top: 0.7rem;
+   
+}
+.numb{
+    width: 12rem;
+}
